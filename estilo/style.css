@@ -1,12 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:auto;    
+  height: auto;
 }
 body,
 main {
@@ -30,7 +30,7 @@ h1 {
   font-family: cursive;
   color: orange;
   text-shadow: grey 5px 5px 10px;
-  margin:62px 0px 84px 0;
+  margin: 62px 0px 84px 0;
 }
 ul {
   display: flex;
@@ -52,19 +52,15 @@ span {
 p {
   text-align: justify;
 }
-h2,
-h3,
-p {
-  margin: 0%;
-}
 footer {
   height: 100%;
   background-color: orange;
 }
-div,footer {
+div,
+footer {
   margin-top: 62px;
 }
-footer > p {
+footer p {
   display: flex;
   align-content: center;
   margin: 16px;
