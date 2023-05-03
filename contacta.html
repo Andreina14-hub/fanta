@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="estilo/style.css" rel="stylesheet" />
+    <link rel="icon" href="img/fanta-6.svg" />
+    <title>contacta</title>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" alt="logo" title="fanta" src="img/Logo.png" />
+      <h1>Nueva bebida refrescante</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Presentación</a>
+        </li>
+        <li>Contacta</li>
+      </ul>
+    </nav>
+    <main>
+      <form name="formulario" action="data-form.php" method="post">
+        <fieldset>
+          <legend>¿Dinos que producto te interesa?</legend>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="select[]"
+              id="orangone"
+              value="Fanta de naranja de 1 litro"
+            />
+            <label for="unlitro">Fanta de naranja de 1 litro</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="select[]"
+              id="orangmid"
+              value="Fanta de naranja de medio litro"
+            />
+            <label for="">Fanta de naranja de medio litro</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="select[]"
+              id="limeone"
+              value="Fanta de limón de 1 litro"
+            />
+            <label for="">Fanta de limón de 1 litro</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="select[]"
+              id="limemid"
+              value="Fanta de limón de medio litro"
+            />
+            <label for="">Fanta de limón de medio litro</label>
+          </div>
+        </fieldset>
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+    </main>
+    <footer>
+      <p>Telef: 0000000. Dirección: Alguna parte</p>
+    </footer>
+  </body>
+</html>

@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "comic Sans";
+  src: url("../fonts/comicz.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -12,9 +18,20 @@ body,
 main {
   height: auto;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header,
 main,
 footer {
   width: 60%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 84px;
 }
 .logo {
   width: 84px;
@@ -27,10 +44,9 @@ img {
 }
 h1 {
   text-align: center;
-  font-family: cursive;
+  font-family: comic Sans;
   color: orange;
   text-shadow: grey 5px 5px 10px;
-  margin: 62px 0px 84px 0;
 }
 ul {
   display: flex;
@@ -56,7 +72,7 @@ footer {
   height: 100%;
   background-color: orange;
 }
-div,
+section,
 footer {
   margin-top: 62px;
 }
@@ -66,4 +82,25 @@ footer p {
   margin: 16px;
   color: aliceblue;
   justify-content: flex-end;
+}
+/* -----------------------------contacto----------------------- */
+form {
+  display: flex;
+}
+fieldset {
+  width: 18rem;
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+div {
+  margin: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+button {
+  margin: 2rem;
 }
